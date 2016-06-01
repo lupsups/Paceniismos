@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Style for image view -->
+    <style name="MyImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <!-- Style for header text -->
+    <style name="Title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">9</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- Style for description text -->
+    <style name="Description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+    <!-- Style for Star Image Button -->
+    <style name="Star">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:src">@drawable/star</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+</resources>

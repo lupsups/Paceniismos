@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.soychukuta.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/MyImageView"
+                    android:src="@drawable/chaqui" />
+                <!-- Text view sea mas grande y al lado poner un boton de estrella, para poner entre los favoritos-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#90000000"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="Estoy ch'aquí">
+                        <!-- poner 80 para tener transparencia despues del numeral para que el background sea transparente --></TextView>
+
+                    <ImageButton
+                        style="@style/Star" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/Description"
+                android:text="Cuando se tiene resaca y deshidratado."></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/MyImageView"
+                    android:src="@drawable/el_clima_se_ha_estido" />
+                <!-- Text view sea mas grande y al lado poner un boton de estrella, para poner entre los favoritos-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#90000000"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="El clima se ha estido">
+                        <!-- poner 80 para tener transparencia despues del numeral para que el background sea transparente --></TextView>
+
+                    <ImageButton
+                        style="@style/Star" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/Description"
+                android:text="Se dice esta expresion porque en La Paz se tiene un clima muy cambiante, tanto así que se puedes tener las cuatro estaciones en un solo día."></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/MyImageView"
+                    android:src="@drawable/seco_metele" />
+                <!-- Text view sea mas grande y al lado poner un boton de estrella, para poner entre los favoritos-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#90000000"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="Seco metele!">
+                        <!-- poner 80 para tener transparencia despues del numeral para que el background sea transparente --></TextView>
+
+                    <ImageButton
+                        style="@style/Star" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/Description"
+                android:text="Tomar un vaso de una sola vez sin detenerse."></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/MyImageView"
+                    android:src="@drawable/uta_este_cuate_esta_bien_camote" />
+                <!-- Text view sea mas grande y al lado poner un boton de estrella, para poner entre los favoritos-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#90000000"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="Uta este cuate está bien camote">
+                        <!-- poner 80 para tener transparencia despues del numeral para que el background sea transparente --></TextView>
+
+                    <ImageButton
+                        style="@style/Star" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/Description"
+                android:text="Sorpresa por que una persona está muy enamorado."></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorDivider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/MyImageView"
+                    android:src="@drawable/vamos_por_unas_tucus" />
+                <!-- Text view sea mas grande y al lado poner un boton de estrella, para poner entre los favoritos-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#90000000"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="Vamos por unas tucus">
+                        <!-- poner 80 para tener transparencia despues del numeral para que el background sea transparente --></TextView>
+
+                    <ImageButton
+                        style="@style/Star" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/Description"
+                android:text="Ir a comer unas tucumanas que son como empanadas de carne."></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
